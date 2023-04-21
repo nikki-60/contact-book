@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+    <titile>
+        login page
+    </titile>
+
+    <link rel="stylesheet" href="static/mystyles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>User Login</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class" action="/login" method="post">
+            <div class="form_div">
+                <label>Login:</label>
+                <input class="field_class" name="login_txt" type="text" placeholder="Name" autofocus>
+                <label>Password:</label>
+                <input id="pass" class="field_class" name="password_txt" type="password" placeholder="Password">
+                <button class="submit_class" type="submit" form="login_form" >Submit</button>
+<!--                {{ mesage }}-->
+            </div>
+            <div class="info_div">
+
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

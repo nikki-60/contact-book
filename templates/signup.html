@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>
+        signup page
+    </title>
+
+    <link rel="stylesheet" href="static/mystyles.css">
+
+</head>
+<body>
+
+    <header>
+        <h1>User SignUp</h1>
+    </header>
+    <main>
+        <form id="login_form" class="form_class" action="/signup" method="post">
+            <div class="form_div">
+                <label>Uname:</label>
+                <input class="field_class" name="uname_txt" type="text" placeholder="username" >
+                <label>E-mail:</label>
+                <input  class="field_class" name="email_txt" type="email" placeholder="Email">
+                <label>Password:</label>
+                <input  class="field_class" name="password_txt" type="password" placeholder="Password">
+              <label>Phone-Number:</label>
+              <input  class="field_class" name="phno_txt" type="number" placeholder="PhoneNo">
+                 <button class="submit_class" type="submit" form="login_form" >Submit</button>
+            </div>
+            <div class="info_div">
+
+            </div>
+        </form>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
